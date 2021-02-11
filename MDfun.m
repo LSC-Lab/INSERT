@@ -1,5 +1,6 @@
 function Indata = MDfun(filename, mechanism, MDP, distname)
-% Main function for output labeled datasets
+% Main function for outputing labeled datasets
+% Copyright 2021 Roozbeh Razavi-Far
 
 dataset = readtable([filename, '.xlsx'], 'ReadVariableNames', false);
 dataset = table2cell(dataset);
