@@ -1,4 +1,5 @@
 function INSERT(filename, ratio, mechanism, distribution, Numf, labeled)
+% Copyright 2021 Roozbeh Razavi-Far
 
 %% Input
 % filename: filename of original complete data
