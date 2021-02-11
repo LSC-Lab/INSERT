@@ -1,5 +1,7 @@
 function Indata_A = MAR(data, ratio, distribution, Numf)
 % Output incomplete datasets with MAR
+% Copyright 2021 Roozbeh Razavi-Far
+
 [instance,feature] = size(data);
 MPcase = CellTCase(ratio, Numf, instance, feature); % How many cases will be missed
 
