@@ -1,5 +1,6 @@
 function In_dataP = RPdata(In_data, gn, F)
 % Create categorical datasets
+% Copyright 2021 Roozbeh Razavi-Far
 
 [m, n] = size(In_data);
 
