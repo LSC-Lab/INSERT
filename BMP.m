@@ -1,5 +1,6 @@
 function MP = BMP(data, MF)
 % Build missing pattern based on correlation coefficient
+% Copyright 2021 Roozbeh Razavi-Far
 
 [~, f] = size(data);
 feature = f;
