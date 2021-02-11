@@ -1,5 +1,6 @@
 function createIndata(data, filename, mechanism, ratio, distribution)
 % Export incomplete datasets
+% Copyright 2021 Roozbeh Razavi-Far
 
 switch mechanism
     case 'MCAR'
