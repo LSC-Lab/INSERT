@@ -1,5 +1,6 @@
 function Idata = createNAN(Idata, Candp, index, MPcase, MFP, distname)
 % Creating missing values in missing samples for each missing pattern
+% Copyright 2021 Roozbeh Razavi-Far
 
 LL = size(Candp, 1);
 SL = floor(LL * MPcase);
