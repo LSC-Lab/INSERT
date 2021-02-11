@@ -1,5 +1,7 @@
 function [Candp, index] = D_data(data, freq)
 % Divide datasets into several subsets
+% Copyright 2021 Roozbeh Razavi-Far
+
 instance = size(data, 1);
 ind = [1 : 1 : instance]';
 data_i = [ind data];
