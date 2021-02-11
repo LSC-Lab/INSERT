@@ -1,5 +1,6 @@
 function name = abbdist(distname)
 % Abreviation for the distribuitions
+% Copyright 2021 Roozbeh Razavi-Far
 
 switch distname
     case 'exponential'
@@ -16,4 +17,3 @@ switch distname
         disp('Its not a correct distribution name');
 end
 end
-
