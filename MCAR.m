@@ -1,5 +1,6 @@
 function Indata_C = MCAR(data,ratio)
 % Output incomplete datasets with MCAR
+% Copyright 2021 Roozbeh Razavi-Far
 
 [instance, feature] = size(data);
 Tdata = instance * feature;
