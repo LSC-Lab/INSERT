@@ -1,5 +1,6 @@
 function Indata_N = MNAR(data, ratio, distribution, Numf)
 % Output incomplete datasets with MNAR
+% Copyright 2021 Roozbeh Razavi-Far
 
 [instance, feature] = size(data);
 MPcase = CellTCase(ratio, Numf, instance, feature);
