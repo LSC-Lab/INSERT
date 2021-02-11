@@ -1,5 +1,6 @@
 function freq = decifreq(data)
 % Decide the number of subsets for incomplete datasets
+% Copyright 2021 Roozbeh Razavi-Far
 
 [instance, feature] = size(data);
 freq = feature;
