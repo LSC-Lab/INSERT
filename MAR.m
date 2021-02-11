@@ -13,7 +13,6 @@ Indata_A = data;
 patterns(1 : K, 1 : feature) = 0;
 
 %% Create missing patterns and weights
-
 for i = 1 : K
     patterns(i, :) = BMP(Candp{i}, Numf);
 end
